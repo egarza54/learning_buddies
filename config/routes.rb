@@ -4,10 +4,11 @@ Rails.application.routes.draw do
 
   root 'welcome#index'
 
+
   post "login" => "sessions#create", :as => "login"
   get "logout" => "sessions#destroy", :as => "logout"
 
-  resources :teachers
+  resources :teacher
 
   get "landing" => "landings#index", :as => "landing"
 

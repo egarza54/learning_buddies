@@ -3,7 +3,7 @@ class ApplicationController < ActionController::Base
 
   helper_method :current_teacher, :logged_in?
 
-  def current_user
+  def current_teacher
     @teacher ||= Teacher.find_by(id: session[:teacher_id])
   end
 
