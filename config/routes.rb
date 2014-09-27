@@ -10,8 +10,10 @@ Rails.application.routes.draw do
   get "logout" => "sessions#destroy", :as => "logout"
 
   resources :teacher
+
   resources :assignment
   resources :assignment_student
+
 
   get "landing" => "landings#index", :as => "landing"
 

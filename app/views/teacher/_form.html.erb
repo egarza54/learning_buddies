@@ -1,4 +1,15 @@
-<%= form_for(current_user) do |f| %>
+<%= form_for(:teacher) do |f| %>
+
+  <div class="field">
+    <%= f.label :prefix %><br>
+    <%= f.text_field :prefix %>
+  </div>
+
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+
   <div class="field">
     <%= f.label :email %><br>
     <%= f.email_field :email %>

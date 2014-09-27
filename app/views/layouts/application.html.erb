@@ -8,6 +8,50 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <header>
+
+    <nav>
+    <div class="fixed">
+    <nav class="top-bar">
+      <div class="left">
+        <%= link_to root_path do %>
+          <%= image_tag("wbutton.png") %>
+        <% end %>
+      </div>
+      <div class="right">
+        <ul>
+        <% if logged_in? %>
+            <div class="loggedin">
+              <div class="small-7 columns signup">
+              
+              <div class="small-2 columns">
+                <%= link_to "Profile", current_teacher %>
+              </div>
+              <div class="small-2 columns">
+                <%= link_to "Logout", logout_path %>
+              </div>
+            </div>
+        <% else %>
+            <%= form_for(:teacher, :url => {:controller => 'sessions', :action => 'login'}) do |f| %>
+              <div class="small-3 columns">
+                <%= link_to "Sign Up", new_teacher_path, :class => "signup" %>
+              </div>
+              <div class="small-4 columns">
+                <%= f.email_field :email, :autofocus => true,:value => nil, placeholder: 'email' %>
+              </div>
+              <div class="small-4 columns">
+                <%= f.password_field :password, :autofocus => true, placeholder: 'password' %>
+              </div>
+              <div class="small-1 columns">
+                <%= f.submit 'Sign In' %>
+              </div>
+            <% end %>
+        <% end %>
+        </ul>
+      </div>
+    </nav>
+    </div>
+  </header>
 
 	<p class="flash"><%= flash.notice %></p>
 	<%= yield %>
