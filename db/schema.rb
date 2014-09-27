@@ -47,9 +47,9 @@ ActiveRecord::Schema.define(version: 20140927180310) do
   end
 
   create_table "assignments", force: true do |t|
-    t.integer  "assignment_type"
+    t.integer  "assignment_type_id"
     t.text     "submission"
-    t.integer  "teacher"
+    t.integer  "teacher_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
