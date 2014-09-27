@@ -3,12 +3,13 @@
 <h3><%= @type.name %></h3>
 
 <div class="dashboard-container">
-  <div class="blocks">
     <% @assignments.each do |assignment| %>
+  <div class="blocks">
       <% assignment.students.each do |pair| %>
       <li><%= pair.name %></li>
       <% end %>
-    <% end %>
   </div>
+      <br>
+    <% end %>
 </div>
 
