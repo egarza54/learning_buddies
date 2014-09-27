@@ -2,10 +2,10 @@ class SessionsController < ApplicationController
   
   def create
   	reset_session
-  	@user = User.find_by_email(user_params[:email])
-		if @user && @user.authenticate(user_params[:password])
+  	@teacher = Teacher.find_by_email(teacher_params[:email])
+		if @teacher && @teacher.authenticate(teacher_params[:password])
 			new_session
-			redirect_to user_path(@user)
+			redirect_to teacher_path(@teacher)
 		else
 			flash.notice = 'Incorrect username or password.'
   		redirect_to root_path
@@ -21,12 +21,12 @@ class SessionsController < ApplicationController
 
 private 
 
-	def user_params
+	def teacher_params
     params.require(:user).permit(:email, :password)
   end
 	
 	def new_session
-    session[:user_id] = @user.id
+    session[:teacher_id] = @teacher.id
   end
 
   def end_session

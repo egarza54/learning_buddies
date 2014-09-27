@@ -1,14 +1,14 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
-  helper_method :current_user, :logged_in?
+  helper_method :current_teacher, :logged_in?
 
   def current_user
-    @user ||= User.find_by(id: session[:user_id])
+    @teacher ||= Teacher.find_by(id: session[:teacher_id])
   end
 
   def logged_in?
-    current_user != nil
+    current_teacher != nil
   end
   
 end
