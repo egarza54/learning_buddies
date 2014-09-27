@@ -1,21 +1,26 @@
 <div class="one_to_one_work">
-	<h1>Welcome <%= @student1.name %> and <%= @student2.name %></h1>
+	<h1>Hello <%= @student1.name %> and <%= @student2.name %></h1>
+	<hr>
 	<h2>You'll be working on the <span style="color:blue"><%= @instructions.name %></span> assignment</h2>
 	<div class="work">
 		<% if @instructions.assignment_url %>
 			<div>
-				<iframe src="//player.vimeo.com/video/40000072" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="http://vimeo.com/40000072">Caine's Arcade</a> from <a href="http://vimeo.com/nirvan">Nirvan Mullick</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+				<iframe src="//player.vimeo.com/video/40000072" width="700" height="393.4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 			</div>
 		<% end %>
+		<p> <%= @instructions.instructions%> </p>
+
 	</div>
 
 	<div class="student_work">
 		<%= form_for @assignment do |f|%>
-          <li><%= f.text_area :submission, :size => "30x10" %></li>
+          <p><%= f.text_area :submission %></p>
           <button class="btn btn-primary btn-block" id="save">SAVE WORK</button>
     <% end %>
 	</div>
 
-	<div class="chat"></div>
+	<div class="chat">
+
+	</div>
 
 </div>
