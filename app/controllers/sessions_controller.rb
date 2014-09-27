@@ -22,7 +22,7 @@ class SessionsController < ApplicationController
 private 
 
 	def teacher_params
-    params.require(:user).permit(:email, :password)
+    params.require(:teacher).permit(:email, :password)
   end
 	
 	def new_session

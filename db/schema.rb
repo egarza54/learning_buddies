@@ -32,6 +32,7 @@ ActiveRecord::Schema.define(version: 20140927180310) do
   end
 
   create_table "assignment_types", force: true do |t|
+    t.string   "name"
     t.text     "instructions"
     t.string   "assignment_url"
     t.datetime "created_at"
