@@ -32,7 +32,7 @@
               </div>
             </div>
         <% else %>
-            <%= form_for(:teacher, :url => {:controller => 'sessions', :action => 'login'}) do |f| %>
+            <%= form_for(:teacher, :url => {:controller => 'sessions', :action => 'create'}) do |f| %>
               <div class="small-3 columns">
                 <%= link_to "Sign Up", new_teacher_path, :class => "signup" %>
               </div>
