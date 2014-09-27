@@ -5,6 +5,8 @@ class TeacherController < ApplicationController
 
   def show
     current_teacher
+    @assignments = Assignment.all
+    @type = AssignmentType.first
   end
 
   def new
