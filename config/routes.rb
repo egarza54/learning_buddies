@@ -5,10 +5,15 @@ Rails.application.routes.draw do
   root 'welcome#index'
 
 
+
   post "login" => "sessions#create", :as => "login"
   get "logout" => "sessions#destroy", :as => "logout"
 
   resources :teacher
+
+  resources :assignment
+  resources :assignment_student
+
 
   get "landing" => "landings#index", :as => "landing"
 
