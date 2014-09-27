@@ -8,6 +8,14 @@
 			</div>
 		<% end %>
 	</div>
+
+	<div class="student_work">
+		<%= form_for @assignment do |f|%>
+          <li><%= f.text_area :submission, :size => "30x10" %></li>
+          <button class="btn btn-primary btn-block" id="save">SAVE WORK</button>
+    <% end %>
+	</div>
+
 	<div class="chat"></div>
 
 </div>
