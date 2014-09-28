@@ -4,8 +4,7 @@
 
 .one_to_one_work {
 	width: 63%;
-	float: left;
-	margin: 2em 5%;	
+	margin: -4% 5%;	
 }
 
 #assignment_submission {
@@ -14,5 +13,48 @@
 	padding: 5px;
 }
 
+.student_work {
+	float: left;
+}
+
+.messages {
+	width: 250px;
+	position: fixed;
+	top: 18%;
+	right: 3%;
+}
+
+#chat {
+	overflow: hidden;
+	height: 357px;
+	border: solid #333;
+	border-width: thin;
+}
+
+li {
+	margin-left: .5em;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.created_at {
+	text-align: right
+}
 
 
+
+/*Below is code for hard code chatroom*/
+/*
+		<div id="chat">
+			<% if @messages %>
+				<%= render 'message' %>
+			<% end %>
+		</div>
+		<br>
+		<%= form_for(:message, :remote => true, :url => {:controller => 'assignment', :action => 'create'}, :html=> {:id => 'form_message'}) do |f| %>
+			<%= f.text_field :content %>
+			<%= f.hidden_field :assignment_id, :value => @assignment.id%>
+			<%= f.submit "Send" %>
+		<% end %>
+
+*/
