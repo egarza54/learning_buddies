@@ -1,6 +1,6 @@
 .teacher-container {
-  margin-top: 6%;
-  font-family: 'Noto Sans', sans-serif;
+/*  margin-top: 6%;
+*/  font-family: 'Noto Sans', sans-serif;
   margin-left: 4%;
 }
 
@@ -37,10 +37,10 @@
 
 .blocks:hover {
   background-color: #15E83A;
-  -webkit-transition:all 0.2s ease-in-out;
-  -moz-transition:all 0.2s ease-in-out;
-  -o-transition:all 0.2s ease-in-out;
-  transition:all 0.2s ease-in-out;
+  -webkit-transition:all 0.4s ease-in-out;
+  -moz-transition:all 0.4s ease-in-out;
+  -o-transition:all 0.4s ease-in-out;
+  transition:all 0.4s ease-in-out;
 }
 
 .blocks li {
@@ -50,6 +50,7 @@
   list-style-type: none;
   padding: 10px;
   font-weight: bold;
+  color: #000000;
 }
 
 .blocks img {

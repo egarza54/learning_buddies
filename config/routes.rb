@@ -4,7 +4,7 @@ Rails.application.routes.draw do
 
   root 'welcome#index'
 
-
+  get 'assignment/:id' => 'assignment#show'
 
   post "login" => "sessions#create", :as => "login"
   get "logout" => "sessions#destroy", :as => "logout"
