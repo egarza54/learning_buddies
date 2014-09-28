@@ -1,0 +1,1104 @@
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-28 13:04:10 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (130.2ms)
+Warning. Error encountered while reading cache 479b4e37e91ec431de5544ab9416895df33bbd1e/application.css.scssc: end of file reached
+
+Warning. Error encountered while reading cache 479b4e37e91ec431de5544ab9416895df33bbd1e/assignments.css.scssc: end of file reached
+
+Warning. Error encountered while reading cache 479b4e37e91ec431de5544ab9416895df33bbd1e/teachers.css.scssc: end of file reached
+
+  [1m[35mTeacher Load (1.0ms)[0m  SELECT  "teachers".* FROM "teachers"  WHERE "teachers"."id" = 1 LIMIT 1
+Completed 200 OK in 9261ms (Views: 9221.9ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/assignments.css?body=1" for 127.0.0.1 at 2014-09-28 13:04:20 -0500
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-09-28 13:04:20 -0500
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-09-28 13:04:20 -0500
+
+
+Started GET "/assets/teachers.css?body=1" for 127.0.0.1 at 2014-09-28 13:04:21 -0500
+
+
+Started GET "/assets/messages.css?body=1" for 127.0.0.1 at 2014-09-28 13:04:21 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:21 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-28 13:04:21 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-28 13:04:21 -0500
+
+
+Started GET "/assets/students.css?body=1" for 127.0.0.1 at 2014-09-28 13:04:21 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:21 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:21 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:21 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:21 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:21 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:21 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:21 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:21 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:21 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:21 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:21 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:21 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:21 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:21 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:21 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:21 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:21 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:21 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:21 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:21 -0500
+
+
+Started GET "/assets/assignments.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:21 -0500
+
+
+Started GET "/assets/collaborations.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:21 -0500
+
+
+Started GET "/assets/messages.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:21 -0500
+
+
+Started GET "/assets/students.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:21 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:21 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:21 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:21 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:21 -0500
+
+
+Started GET "/images/rogerpark.jpg" for 127.0.0.1 at 2014-09-28 13:04:21 -0500
+
+ActionController::RoutingError (No route matches [GET] "/images/rogerpark.jpg"):
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Edgar/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Edgar/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Edgar/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/Edgar/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/Edgar/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (6.1ms)
+  Rendered /Users/Edgar/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (167.9ms)
+  Rendered /Users/Edgar/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (312.7ms)
+
+
+Started GET "/assets/pairs-horiz.png" for 127.0.0.1 at 2014-09-28 13:04:22 -0500
+
+
+Started GET "/assets/pairs-small.png" for 127.0.0.1 at 2014-09-28 13:04:22 -0500
+
+
+Started GET "/images/bucktown.jpg" for 127.0.0.1 at 2014-09-28 13:04:22 -0500
+
+ActionController::RoutingError (No route matches [GET] "/images/bucktown.jpg"):
+  actionpack (4.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.5) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.5) lib/rails/engine.rb:514:in `call'
+  railties (4.1.5) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Edgar/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Edgar/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Edgar/.rbenv/versions/2.0.0-p481/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/Edgar/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (10.3ms)
+  Rendered /Users/Edgar/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (10.1ms)
+  Rendered /Users/Edgar/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /Users/Edgar/.rbenv/versions/2.0.0-p481/lib/ruby/gems/2.0.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (72.2ms)
+
+
+Started GET "/teacher/1" for 127.0.0.1 at 2014-09-28 13:04:29 -0500
+Processing by TeacherController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTeacher Load (1.2ms)[0m  [1mSELECT  "teachers".* FROM "teachers"  WHERE "teachers"."id" = 1 LIMIT 1[0m
+  [1m[35mAssignmentType Load (0.9ms)[0m  SELECT  "assignment_types".* FROM "assignment_types"   ORDER BY "assignment_types"."id" ASC LIMIT 1
+  [1m[36mAssignment Load (0.8ms)[0m  [1mSELECT "assignments".* FROM "assignments"[0m
+  [1m[35mStudent Load (0.8ms)[0m  SELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1  [["assignment_id", 2]]
+  [1m[36mStudent Load (0.6ms)[0m  [1mSELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1[0m  [["assignment_id", 3]]
+  [1m[35mStudent Load (0.5ms)[0m  SELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1  [["assignment_id", 6]]
+  [1m[36mStudent Load (1.8ms)[0m  [1mSELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1[0m  [["assignment_id", 7]]
+  [1m[35mStudent Load (0.5ms)[0m  SELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1  [["assignment_id", 8]]
+  [1m[36mStudent Load (0.4ms)[0m  [1mSELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1[0m  [["assignment_id", 9]]
+  [1m[35mStudent Load (0.2ms)[0m  SELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1  [["assignment_id", 10]]
+  [1m[36mStudent Load (0.2ms)[0m  [1mSELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1[0m  [["assignment_id", 1]]
+  [1m[35mStudent Load (0.2ms)[0m  SELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1  [["assignment_id", 4]]
+  [1m[36mStudent Load (0.4ms)[0m  [1mSELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1[0m  [["assignment_id", 5]]
+  Rendered teacher/show.html.erb within layouts/application (240.9ms)
+Completed 200 OK in 784ms (Views: 715.7ms | ActiveRecord: 19.6ms)
+
+
+Started GET "/teacher/1" for 127.0.0.1 at 2014-09-28 13:04:29 -0500
+Processing by TeacherController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTeacher Load (0.5ms)[0m  SELECT  "teachers".* FROM "teachers"  WHERE "teachers"."id" = 1 LIMIT 1
+  [1m[36mAssignmentType Load (0.3ms)[0m  [1mSELECT  "assignment_types".* FROM "assignment_types"   ORDER BY "assignment_types"."id" ASC LIMIT 1[0m
+  [1m[35mAssignment Load (0.4ms)[0m  SELECT "assignments".* FROM "assignments"
+  [1m[36mStudent Load (0.3ms)[0m  [1mSELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1[0m  [["assignment_id", 2]]
+  [1m[35mStudent Load (0.3ms)[0m  SELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1  [["assignment_id", 3]]
+  [1m[36mStudent Load (0.4ms)[0m  [1mSELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1[0m  [["assignment_id", 6]]
+  [1m[35mStudent Load (0.4ms)[0m  SELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1  [["assignment_id", 7]]
+  [1m[36mStudent Load (0.3ms)[0m  [1mSELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1[0m  [["assignment_id", 8]]
+  [1m[35mStudent Load (0.3ms)[0m  SELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1  [["assignment_id", 9]]
+  [1m[36mStudent Load (0.3ms)[0m  [1mSELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1[0m  [["assignment_id", 10]]
+  [1m[35mStudent Load (0.4ms)[0m  SELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1  [["assignment_id", 1]]
+  [1m[36mStudent Load (0.7ms)[0m  [1mSELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1[0m  [["assignment_id", 4]]
+  [1m[35mStudent Load (0.3ms)[0m  SELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1  [["assignment_id", 5]]
+  Rendered teacher/show.html.erb within layouts/application (31.6ms)
+Completed 200 OK in 581ms (Views: 572.9ms | ActiveRecord: 4.9ms)
+
+
+Started GET "/assets/students.css?body=1" for 127.0.0.1 at 2014-09-28 13:04:30 -0500
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-09-28 13:04:30 -0500
+
+
+Started GET "/assets/messages.css?body=1" for 127.0.0.1 at 2014-09-28 13:04:30 -0500
+
+
+Started GET "/assets/assignments.css?body=1" for 127.0.0.1 at 2014-09-28 13:04:30 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-28 13:04:30 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:30 -0500
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-09-28 13:04:30 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:30 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:30 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:30 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:30 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:30 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:30 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:30 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:30 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:30 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:30 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:30 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:30 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:30 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:30 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:30 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:30 -0500
+
+
+Started GET "/assets/collaborations.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:30 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:30 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:30 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:30 -0500
+
+
+Started GET "/assets/assignments.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:30 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:30 -0500
+
+
+Started GET "/assets/students.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:30 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:30 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:30 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:30 -0500
+
+
+Started GET "/assets/messages.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:30 -0500
+
+
+Started GET "/assets/pairs-small.png" for 127.0.0.1 at 2014-09-28 13:04:30 -0500
+
+
+Started GET "/assets/pear-white.png" for 127.0.0.1 at 2014-09-28 13:04:30 -0500
+
+
+Started GET "/assignment/6" for 127.0.0.1 at 2014-09-28 13:04:38 -0500
+Processing by AssignmentController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mAssignment Load (0.3ms)[0m  [1mSELECT  "assignments".* FROM "assignments"  WHERE "assignments"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mAssignmentType Load (0.4ms)[0m  SELECT  "assignment_types".* FROM "assignment_types"  WHERE "assignment_types"."id" = 1 LIMIT 1
+  [1m[36mStudent Load (0.5ms)[0m  [1mSELECT  "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1  ORDER BY "students"."id" ASC LIMIT 1[0m  [["assignment_id", 6]]
+  [1m[35mStudent Load (0.7ms)[0m  SELECT  "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1  ORDER BY "students"."id" DESC LIMIT 1  [["assignment_id", 6]]
+  [1m[36mMessage Load (0.8ms)[0m  [1mSELECT "messages".* FROM "messages"[0m
+  Rendered assignment/_message.html.erb (13.0ms)
+  Rendered assignment/show.html.erb within layouts/application (67.2ms)
+  [1m[35mTeacher Load (0.6ms)[0m  SELECT  "teachers".* FROM "teachers"  WHERE "teachers"."id" = 1 LIMIT 1
+Completed 200 OK in 619ms (Views: 587.7ms | ActiveRecord: 5.5ms)
+
+
+Started PATCH "/assignment/6" for 127.0.0.1 at 2014-09-28 13:04:41 -0500
+Processing by AssignmentController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MjBWR6bj2B+PjsYbxxHSHym1jnM4ETNRwUmTu3Z6FNQ=", "assignment"=>{"questions"=>"false"}, "id"=>"6"}
+  [1m[36mAssignment Load (0.5ms)[0m  [1mSELECT  "assignments".* FROM "assignments"  WHERE "assignments"."id" = $1 LIMIT 1[0m  [["id", 6]]
+Unpermitted parameters: questions
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "assignments" SET "questions" = $1, "updated_at" = $2 WHERE "assignments"."id" = 6[0m  [["questions", "f"], ["updated_at", "2014-09-28 18:04:41.674122"]]
+  [1m[35m (28.8ms)[0m  COMMIT
+Redirected to http://localhost:3000/assignment/6
+Completed 302 Found in 43ms (ActiveRecord: 30.2ms)
+
+
+Started GET "/assignment/6" for 127.0.0.1 at 2014-09-28 13:04:41 -0500
+Processing by AssignmentController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mAssignment Load (0.5ms)[0m  [1mSELECT  "assignments".* FROM "assignments"  WHERE "assignments"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mAssignmentType Load (0.5ms)[0m  SELECT  "assignment_types".* FROM "assignment_types"  WHERE "assignment_types"."id" = 1 LIMIT 1
+  [1m[36mStudent Load (1.1ms)[0m  [1mSELECT  "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1  ORDER BY "students"."id" ASC LIMIT 1[0m  [["assignment_id", 6]]
+  [1m[35mStudent Load (1.4ms)[0m  SELECT  "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1  ORDER BY "students"."id" DESC LIMIT 1  [["assignment_id", 6]]
+  [1m[36mMessage Load (0.4ms)[0m  [1mSELECT "messages".* FROM "messages"[0m
+  Rendered assignment/_message.html.erb (2.5ms)
+  Rendered assignment/show.html.erb within layouts/application (9.4ms)
+  [1m[35mTeacher Load (0.6ms)[0m  SELECT  "teachers".* FROM "teachers"  WHERE "teachers"."id" = 1 LIMIT 1
+Completed 200 OK in 545ms (Views: 533.0ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-09-28 13:04:42 -0500
+
+
+Started GET "/assets/assignments.css?body=1" for 127.0.0.1 at 2014-09-28 13:04:42 -0500
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-09-28 13:04:42 -0500
+
+
+Started GET "/assets/students.css?body=1" for 127.0.0.1 at 2014-09-28 13:04:42 -0500
+
+
+Started GET "/assets/messages.css?body=1" for 127.0.0.1 at 2014-09-28 13:04:42 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-28 13:04:42 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-28 13:04:42 -0500
+
+
+Started GET "/assets/teachers.css?body=1" for 127.0.0.1 at 2014-09-28 13:04:42 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:42 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:42 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:42 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:42 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:42 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:42 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:42 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:42 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:42 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:42 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:42 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:42 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:42 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:42 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:42 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:42 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:42 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:42 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:42 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:42 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:42 -0500
+
+
+Started GET "/assets/assignments.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:42 -0500
+
+
+Started GET "/assets/students.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:42 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:42 -0500
+
+
+Started GET "/assets/messages.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:42 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:42 -0500
+
+
+Started GET "/assets/collaborations.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:42 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:42 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:42 -0500
+
+
+Started GET "/assets/pairs-small.png" for 127.0.0.1 at 2014-09-28 13:04:42 -0500
+
+
+Started GET "/teacher/1" for 127.0.0.1 at 2014-09-28 13:04:47 -0500
+Processing by TeacherController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTeacher Load (5.9ms)[0m  [1mSELECT  "teachers".* FROM "teachers"  WHERE "teachers"."id" = 1 LIMIT 1[0m
+  [1m[35mAssignmentType Load (3.9ms)[0m  SELECT  "assignment_types".* FROM "assignment_types"   ORDER BY "assignment_types"."id" ASC LIMIT 1
+  [1m[36mAssignment Load (2.9ms)[0m  [1mSELECT "assignments".* FROM "assignments"[0m
+  [1m[35mStudent Load (0.6ms)[0m  SELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1  [["assignment_id", 2]]
+  [1m[36mStudent Load (0.7ms)[0m  [1mSELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1[0m  [["assignment_id", 3]]
+  [1m[35mStudent Load (0.3ms)[0m  SELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1  [["assignment_id", 7]]
+  [1m[36mStudent Load (0.3ms)[0m  [1mSELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1[0m  [["assignment_id", 8]]
+  [1m[35mStudent Load (0.3ms)[0m  SELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1  [["assignment_id", 9]]
+  [1m[36mStudent Load (0.3ms)[0m  [1mSELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1[0m  [["assignment_id", 10]]
+  [1m[35mStudent Load (0.3ms)[0m  SELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1  [["assignment_id", 1]]
+  [1m[36mStudent Load (1.2ms)[0m  [1mSELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1[0m  [["assignment_id", 4]]
+  [1m[35mStudent Load (0.3ms)[0m  SELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1  [["assignment_id", 5]]
+  [1m[36mStudent Load (0.4ms)[0m  [1mSELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1[0m  [["assignment_id", 6]]
+  Rendered teacher/show.html.erb within layouts/application (34.6ms)
+Completed 200 OK in 531ms (Views: 508.8ms | ActiveRecord: 17.4ms)
+
+
+Started GET "/assets/pear-white.png" for 127.0.0.1 at 2014-09-28 13:04:48 -0500
+
+
+Started GET "/teacher/1" for 127.0.0.1 at 2014-09-28 13:04:49 -0500
+Processing by TeacherController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mTeacher Load (1.3ms)[0m  SELECT  "teachers".* FROM "teachers"  WHERE "teachers"."id" = 1 LIMIT 1
+  [1m[36mAssignmentType Load (0.4ms)[0m  [1mSELECT  "assignment_types".* FROM "assignment_types"   ORDER BY "assignment_types"."id" ASC LIMIT 1[0m
+  [1m[35mAssignment Load (0.4ms)[0m  SELECT "assignments".* FROM "assignments"
+  [1m[36mStudent Load (0.4ms)[0m  [1mSELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1[0m  [["assignment_id", 2]]
+  [1m[35mStudent Load (0.6ms)[0m  SELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1  [["assignment_id", 3]]
+  [1m[36mStudent Load (0.3ms)[0m  [1mSELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1[0m  [["assignment_id", 7]]
+  [1m[35mStudent Load (0.3ms)[0m  SELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1  [["assignment_id", 8]]
+  [1m[36mStudent Load (0.3ms)[0m  [1mSELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1[0m  [["assignment_id", 9]]
+  [1m[35mStudent Load (0.3ms)[0m  SELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1  [["assignment_id", 10]]
+  [1m[36mStudent Load (0.3ms)[0m  [1mSELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1[0m  [["assignment_id", 1]]
+  [1m[35mStudent Load (0.3ms)[0m  SELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1  [["assignment_id", 4]]
+  [1m[36mStudent Load (1.5ms)[0m  [1mSELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1[0m  [["assignment_id", 5]]
+  [1m[35mStudent Load (0.4ms)[0m  SELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1  [["assignment_id", 6]]
+  Rendered teacher/show.html.erb within layouts/application (29.9ms)
+Completed 200 OK in 609ms (Views: 597.6ms | ActiveRecord: 6.7ms)
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-09-28 13:04:49 -0500
+
+
+Started GET "/assets/students.css?body=1" for 127.0.0.1 at 2014-09-28 13:04:49 -0500
+
+
+Started GET "/assets/teachers.css?body=1" for 127.0.0.1 at 2014-09-28 13:04:49 -0500
+
+
+Started GET "/assets/assignments.css?body=1" for 127.0.0.1 at 2014-09-28 13:04:49 -0500
+
+
+Started GET "/assets/messages.css?body=1" for 127.0.0.1 at 2014-09-28 13:04:49 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-28 13:04:49 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-28 13:04:49 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:49 -0500
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-09-28 13:04:50 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:50 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:50 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:50 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:50 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:50 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:50 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:50 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:50 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:50 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:50 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:50 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:50 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:50 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:50 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:50 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:50 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:50 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:50 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:50 -0500
+
+
+Started GET "/assets/assignments.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:50 -0500
+
+
+Started GET "/assets/collaborations.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:50 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:50 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:50 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:50 -0500
+
+
+Started GET "/assets/messages.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:50 -0500
+
+
+Started GET "/assets/pairs-small.png" for 127.0.0.1 at 2014-09-28 13:04:50 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:50 -0500
+
+
+Started GET "/assets/students.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:50 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:50 -0500
+
+
+Started GET "/assets/pear-white.png" for 127.0.0.1 at 2014-09-28 13:04:50 -0500
+
+
+Started GET "/assignment/7" for 127.0.0.1 at 2014-09-28 13:04:52 -0500
+Processing by AssignmentController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mAssignment Load (2.8ms)[0m  [1mSELECT  "assignments".* FROM "assignments"  WHERE "assignments"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mAssignmentType Load (0.4ms)[0m  SELECT  "assignment_types".* FROM "assignment_types"  WHERE "assignment_types"."id" = 1 LIMIT 1
+  [1m[36mStudent Load (0.5ms)[0m  [1mSELECT  "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1  ORDER BY "students"."id" ASC LIMIT 1[0m  [["assignment_id", 7]]
+  [1m[35mStudent Load (0.4ms)[0m  SELECT  "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1  ORDER BY "students"."id" DESC LIMIT 1  [["assignment_id", 7]]
+  [1m[36mMessage Load (0.4ms)[0m  [1mSELECT "messages".* FROM "messages"[0m
+  Rendered assignment/_message.html.erb (1.9ms)
+  Rendered assignment/show.html.erb within layouts/application (6.6ms)
+  [1m[35mTeacher Load (0.5ms)[0m  SELECT  "teachers".* FROM "teachers"  WHERE "teachers"."id" = 1 LIMIT 1
+Completed 200 OK in 549ms (Views: 538.8ms | ActiveRecord: 5.0ms)
+
+
+Started PATCH "/assignment/7" for 127.0.0.1 at 2014-09-28 13:04:54 -0500
+Processing by AssignmentController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MjBWR6bj2B+PjsYbxxHSHym1jnM4ETNRwUmTu3Z6FNQ=", "assignment"=>{"questions"=>"false"}, "id"=>"7"}
+  [1m[36mAssignment Load (0.6ms)[0m  [1mSELECT  "assignments".* FROM "assignments"  WHERE "assignments"."id" = $1 LIMIT 1[0m  [["id", 7]]
+Unpermitted parameters: questions
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (35.9ms)[0m  [1mUPDATE "assignments" SET "questions" = $1, "updated_at" = $2 WHERE "assignments"."id" = 7[0m  [["questions", "f"], ["updated_at", "2014-09-28 18:04:54.475592"]]
+  [1m[35m (20.1ms)[0m  COMMIT
+Redirected to http://localhost:3000/assignment/7
+Completed 302 Found in 71ms (ActiveRecord: 57.1ms)
+
+
+Started GET "/assignment/7" for 127.0.0.1 at 2014-09-28 13:04:54 -0500
+Processing by AssignmentController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mAssignment Load (2.1ms)[0m  [1mSELECT  "assignments".* FROM "assignments"  WHERE "assignments"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  [1m[35mAssignmentType Load (0.6ms)[0m  SELECT  "assignment_types".* FROM "assignment_types"  WHERE "assignment_types"."id" = 1 LIMIT 1
+  [1m[36mStudent Load (0.5ms)[0m  [1mSELECT  "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1  ORDER BY "students"."id" ASC LIMIT 1[0m  [["assignment_id", 7]]
+  [1m[35mStudent Load (0.5ms)[0m  SELECT  "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1  ORDER BY "students"."id" DESC LIMIT 1  [["assignment_id", 7]]
+  [1m[36mMessage Load (0.5ms)[0m  [1mSELECT "messages".* FROM "messages"[0m
+  Rendered assignment/_message.html.erb (2.2ms)
+  Rendered assignment/show.html.erb within layouts/application (15.3ms)
+  [1m[35mTeacher Load (0.5ms)[0m  SELECT  "teachers".* FROM "teachers"  WHERE "teachers"."id" = 1 LIMIT 1
+Completed 200 OK in 562ms (Views: 551.6ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/assets/assignments.css?body=1" for 127.0.0.1 at 2014-09-28 13:04:55 -0500
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-09-28 13:04:55 -0500
+
+
+Started GET "/assets/messages.css?body=1" for 127.0.0.1 at 2014-09-28 13:04:55 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-28 13:04:55 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-28 13:04:55 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:55 -0500
+
+
+Started GET "/assets/students.css?body=1" for 127.0.0.1 at 2014-09-28 13:04:55 -0500
+
+
+Started GET "/assets/teachers.css?body=1" for 127.0.0.1 at 2014-09-28 13:04:55 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:55 -0500
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-09-28 13:04:55 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:55 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:55 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:55 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:55 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:55 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:55 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:55 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:55 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:55 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:55 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:55 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:55 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:55 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:55 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:55 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:55 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:55 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:55 -0500
+
+
+Started GET "/assets/assignments.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:55 -0500
+
+
+Started GET "/assets/collaborations.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:55 -0500
+
+
+Started GET "/assets/messages.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:55 -0500
+
+
+Started GET "/assets/students.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:55 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:55 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:55 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:55 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:55 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-09-28 13:04:55 -0500
+
+
+Started GET "/assets/pairs-small.png" for 127.0.0.1 at 2014-09-28 13:04:55 -0500
+
+
+Started GET "/teacher/1" for 127.0.0.1 at 2014-09-28 13:05:00 -0500
+Processing by TeacherController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTeacher Load (0.5ms)[0m  [1mSELECT  "teachers".* FROM "teachers"  WHERE "teachers"."id" = 1 LIMIT 1[0m
+  [1m[35mAssignmentType Load (0.3ms)[0m  SELECT  "assignment_types".* FROM "assignment_types"   ORDER BY "assignment_types"."id" ASC LIMIT 1
+  [1m[36mAssignment Load (0.4ms)[0m  [1mSELECT "assignments".* FROM "assignments"[0m
+  [1m[35mStudent Load (0.4ms)[0m  SELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1  [["assignment_id", 2]]
+  [1m[36mStudent Load (0.3ms)[0m  [1mSELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1[0m  [["assignment_id", 3]]
+  [1m[35mStudent Load (0.3ms)[0m  SELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1  [["assignment_id", 8]]
+  [1m[36mStudent Load (0.4ms)[0m  [1mSELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1[0m  [["assignment_id", 9]]
+  [1m[35mStudent Load (0.3ms)[0m  SELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1  [["assignment_id", 10]]
+  [1m[36mStudent Load (0.3ms)[0m  [1mSELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1[0m  [["assignment_id", 1]]
+  [1m[35mStudent Load (0.9ms)[0m  SELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1  [["assignment_id", 4]]
+  [1m[36mStudent Load (1.3ms)[0m  [1mSELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1[0m  [["assignment_id", 5]]
+  [1m[35mStudent Load (0.3ms)[0m  SELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1  [["assignment_id", 6]]
+  [1m[36mStudent Load (0.3ms)[0m  [1mSELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1[0m  [["assignment_id", 7]]
+  Rendered teacher/show.html.erb within layouts/application (31.6ms)
+Completed 200 OK in 524ms (Views: 515.0ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/assets/assignments.css?body=1" for 127.0.0.1 at 2014-09-28 13:05:01 -0500
+
+
+Started GET "/assets/students.css?body=1" for 127.0.0.1 at 2014-09-28 13:05:01 -0500
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-09-28 13:05:01 -0500
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-09-28 13:05:01 -0500
+
+
+Started GET "/assets/messages.css?body=1" for 127.0.0.1 at 2014-09-28 13:05:01 -0500
+
+
+Started GET "/assets/teachers.css?body=1" for 127.0.0.1 at 2014-09-28 13:05:01 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-28 13:05:01 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-28 13:05:01 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-28 13:05:01 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-28 13:05:01 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-09-28 13:05:01 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-09-28 13:05:01 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-09-28 13:05:01 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-09-28 13:05:01 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-09-28 13:05:01 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-09-28 13:05:01 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-09-28 13:05:01 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-09-28 13:05:01 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-09-28 13:05:01 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-09-28 13:05:01 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-09-28 13:05:01 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-09-28 13:05:01 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-09-28 13:05:01 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-09-28 13:05:01 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-09-28 13:05:01 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-09-28 13:05:01 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-09-28 13:05:01 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-09-28 13:05:01 -0500
+
+
+Started GET "/assets/assignments.js?body=1" for 127.0.0.1 at 2014-09-28 13:05:01 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-28 13:05:01 -0500
+
+
+Started GET "/assets/collaborations.js?body=1" for 127.0.0.1 at 2014-09-28 13:05:02 -0500
+
+
+Started GET "/assets/messages.js?body=1" for 127.0.0.1 at 2014-09-28 13:05:02 -0500
+
+
+Started GET "/assets/students.js?body=1" for 127.0.0.1 at 2014-09-28 13:05:02 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-28 13:05:02 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-09-28 13:05:02 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-28 13:05:02 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-09-28 13:05:02 -0500
+
+
+Started GET "/assets/pear-white.png" for 127.0.0.1 at 2014-09-28 13:05:02 -0500
+
+
+Started GET "/assets/pairs-small.png" for 127.0.0.1 at 2014-09-28 13:05:02 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-09-28 13:06:56 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (81.7ms)
+  [1m[35mTeacher Load (0.9ms)[0m  SELECT  "teachers".* FROM "teachers"  WHERE "teachers"."id" = 1 LIMIT 1
+Completed 200 OK in 1096ms (Views: 1075.9ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/assets/foundation.css?body=1" for 127.0.0.1 at 2014-09-28 13:06:57 -0500
+
+
+Started GET "/assets/assignments.css?body=1" for 127.0.0.1 at 2014-09-28 13:06:57 -0500
+
+
+Started GET "/assets/messages.css?body=1" for 127.0.0.1 at 2014-09-28 13:06:57 -0500
+
+
+Started GET "/assets/students.css?body=1" for 127.0.0.1 at 2014-09-28 13:06:58 -0500
+
+
+Started GET "/assets/foundation_and_overrides.css?body=1" for 127.0.0.1 at 2014-09-28 13:06:58 -0500
+
+
+Started GET "/assets/teachers.css?body=1" for 127.0.0.1 at 2014-09-28 13:06:58 -0500
+
+
+Started GET "/assets/welcome.css?body=1" for 127.0.0.1 at 2014-09-28 13:06:58 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-09-28 13:06:58 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-09-28 13:06:58 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-09-28 13:06:58 -0500
+
+
+Started GET "/assets/foundation/foundation.js?body=1" for 127.0.0.1 at 2014-09-28 13:06:58 -0500
+
+
+Started GET "/assets/foundation/foundation.abide.js?body=1" for 127.0.0.1 at 2014-09-28 13:06:58 -0500
+
+
+Started GET "/assets/foundation/foundation.accordion.js?body=1" for 127.0.0.1 at 2014-09-28 13:06:58 -0500
+
+
+Started GET "/assets/foundation/foundation.alert.js?body=1" for 127.0.0.1 at 2014-09-28 13:06:58 -0500
+
+
+Started GET "/assets/foundation/foundation.dropdown.js?body=1" for 127.0.0.1 at 2014-09-28 13:06:58 -0500
+
+
+Started GET "/assets/foundation/foundation.interchange.js?body=1" for 127.0.0.1 at 2014-09-28 13:06:58 -0500
+
+
+Started GET "/assets/foundation/foundation.joyride.js?body=1" for 127.0.0.1 at 2014-09-28 13:06:58 -0500
+
+
+Started GET "/assets/foundation/foundation.clearing.js?body=1" for 127.0.0.1 at 2014-09-28 13:06:58 -0500
+
+
+Started GET "/assets/foundation/foundation.magellan.js?body=1" for 127.0.0.1 at 2014-09-28 13:06:58 -0500
+
+
+Started GET "/assets/foundation/foundation.orbit.js?body=1" for 127.0.0.1 at 2014-09-28 13:06:58 -0500
+
+
+Started GET "/assets/foundation/foundation.reveal.js?body=1" for 127.0.0.1 at 2014-09-28 13:06:58 -0500
+
+
+Started GET "/assets/foundation/foundation.offcanvas.js?body=1" for 127.0.0.1 at 2014-09-28 13:06:58 -0500
+
+
+Started GET "/assets/foundation/foundation.slider.js?body=1" for 127.0.0.1 at 2014-09-28 13:06:58 -0500
+
+
+Started GET "/assets/foundation/foundation.tab.js?body=1" for 127.0.0.1 at 2014-09-28 13:06:58 -0500
+
+
+Started GET "/assets/foundation/foundation.tooltip.js?body=1" for 127.0.0.1 at 2014-09-28 13:06:58 -0500
+
+
+Started GET "/assets/foundation/foundation.topbar.js?body=1" for 127.0.0.1 at 2014-09-28 13:06:58 -0500
+
+
+Started GET "/assets/foundation/foundation.equalizer.js?body=1" for 127.0.0.1 at 2014-09-28 13:06:58 -0500
+
+
+Started GET "/assets/foundation.js?body=1" for 127.0.0.1 at 2014-09-28 13:06:58 -0500
+
+
+Started GET "/assets/assignments.js?body=1" for 127.0.0.1 at 2014-09-28 13:06:58 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-09-28 13:06:58 -0500
+
+
+Started GET "/assets/collaborations.js?body=1" for 127.0.0.1 at 2014-09-28 13:06:58 -0500
+
+
+Started GET "/assets/messages.js?body=1" for 127.0.0.1 at 2014-09-28 13:06:58 -0500
+
+
+Started GET "/assets/students.js?body=1" for 127.0.0.1 at 2014-09-28 13:06:58 -0500
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-09-28 13:06:58 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-09-28 13:06:58 -0500
+
+
+Started GET "/assets/vendor/modernizr.js?body=1" for 127.0.0.1 at 2014-09-28 13:06:58 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-09-28 13:06:58 -0500
+
+
+Started GET "/assets/pairs-small.png" for 127.0.0.1 at 2014-09-28 13:06:58 -0500
+
+
+Started GET "/assets/pear-white2.png" for 127.0.0.1 at 2014-09-28 13:06:58 -0500
+
+
+Started GET "/teacher/1" for 127.0.0.1 at 2014-09-28 13:07:00 -0500
+Processing by TeacherController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTeacher Load (0.6ms)[0m  [1mSELECT  "teachers".* FROM "teachers"  WHERE "teachers"."id" = 1 LIMIT 1[0m
+  [1m[35mAssignmentType Load (1.0ms)[0m  SELECT  "assignment_types".* FROM "assignment_types"   ORDER BY "assignment_types"."id" ASC LIMIT 1
+  [1m[36mAssignment Load (0.6ms)[0m  [1mSELECT "assignments".* FROM "assignments"[0m
+  [1m[35mStudent Load (0.7ms)[0m  SELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1  [["assignment_id", 2]]
+  [1m[36mStudent Load (0.5ms)[0m  [1mSELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1[0m  [["assignment_id", 3]]
+  [1m[35mStudent Load (0.4ms)[0m  SELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1  [["assignment_id", 8]]
+  [1m[36mStudent Load (0.4ms)[0m  [1mSELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1[0m  [["assignment_id", 9]]
+  [1m[35mStudent Load (0.4ms)[0m  SELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1  [["assignment_id", 10]]
+  [1m[36mStudent Load (0.4ms)[0m  [1mSELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1[0m  [["assignment_id", 1]]
+  [1m[35mStudent Load (0.3ms)[0m  SELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1  [["assignment_id", 4]]
+  [1m[36mStudent Load (0.3ms)[0m  [1mSELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1[0m  [["assignment_id", 5]]
+  [1m[35mStudent Load (0.2ms)[0m  SELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1  [["assignment_id", 6]]
+  [1m[36mStudent Load (0.3ms)[0m  [1mSELECT "students".* FROM "students" INNER JOIN "assignment_students" ON "students"."id" = "assignment_students"."student_id" WHERE "assignment_students"."assignment_id" = $1[0m  [["assignment_id", 7]]
+  Rendered teacher/show.html.erb within layouts/application (147.9ms)
+Completed 200 OK in 646ms (Views: 604.8ms | ActiveRecord: 13.2ms)
+
+
+Started GET "/assets/pear-white.png" for 127.0.0.1 at 2014-09-28 13:07:01 -0500
