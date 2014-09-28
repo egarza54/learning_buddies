@@ -4,10 +4,6 @@ class AssignmentController < ApplicationController
 	end
 
 	def create
-		@message = Message.create(message_params)		
-		respond_to do |format|
-      format.js 
-    end
 	end
 
 	def show
@@ -22,14 +18,18 @@ class AssignmentController < ApplicationController
 	def update
 		@assignment = Assignment.find(params[:id])
 		@assignment.update(student_submission)
+		@assignment.update(help_params)
 		redirect_to assignment_path
-
 	end
 
 	private 
 
 	def student_submission
     params.require(:assignment).permit(:submission)
+  end
+
+  def help_params
+    params.require(:assignment).permit(:questions)
   end
 
   def message_params

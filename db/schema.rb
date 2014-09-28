@@ -50,6 +50,7 @@ ActiveRecord::Schema.define(version: 20140927235758) do
   create_table "assignments", force: true do |t|
     t.integer  "assignment_type_id"
     t.text     "submission"
+    t.boolean  "questions",          default: false
     t.integer  "teacher_id"
     t.datetime "created_at"
     t.datetime "updated_at"

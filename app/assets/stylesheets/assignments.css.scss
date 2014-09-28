@@ -7,8 +7,17 @@
 	margin: -4% 5%;	
 }
 
+.one_to_one_work h1, .one_to_one_work h2, .one_to_one_work p, .need_help p {
+	font-family: 'Noto Sans', sans-serif;	
+}
+
+.one_to_one_work p {
+	font-size: 1.3em;
+}
+
+
 #assignment_submission {
-	width: 700px;
+	width: 850px;
 	height: 300px;
 	padding: 5px;
 }
@@ -17,18 +26,41 @@
 	float: left;
 }
 
+.need_help {
+	display: inline-block;
+	float: right;
+	right: 22em;
+	position: relative;
+	bottom: 4.8em;
+	left: 0em;
+}
+
 .messages {
 	width: 250px;
 	position: fixed;
-	top: 18%;
-	right: 3%;
+	top: 8em;
+	right: 6em;
 }
 
 #chat {
 	overflow: hidden;
 	height: 357px;
-	border: solid #333;
+	border: inset;
 	border-width: thin;
+	background-color: ghostwhite;
+}
+
+#send {
+	background-color: #1FDBBE;
+	border-radius: 8px;
+}
+
+#send:hover {
+	background-color: #24FFDD;
+	-webkit-transition:all 0.4s ease-in-out;
+  -moz-transition:all 0.4s ease-in-out;
+  -o-transition:all 0.4s ease-in-out;
+  transition:all 0.4s ease-in-out;
 }
 
 li {
@@ -41,6 +73,49 @@ li {
 	text-align: right
 }
 
+#answered {
+	background-color: green;
+	width: 200px;
+	margin: -1em 0em;
+	border-radius: 8px;
+
+}
+
+#answered:hover {
+	background-color: #009600;
+	-webkit-transition:all 0.4s ease-in-out;
+  -moz-transition:all 0.4s ease-in-out;
+  -o-transition:all 0.4s ease-in-out;
+  transition:all 0.4s ease-in-out;
+}
+
+#questions {
+	background-color: #FF2617;
+	width: 200px;
+	margin: -1em 0em;
+	border-radius: 8px;
+}
+
+#questions:hover {
+	background-color: #D42013;
+	-webkit-transition:all 0.4s ease-in-out;
+  -moz-transition:all 0.4s ease-in-out;
+  -o-transition:all 0.4s ease-in-out;
+  transition:all 0.4s ease-in-out;
+}
+
+#save {
+	background-color: #1582E8;
+	border-radius: 8px;
+}
+
+#save:hover {
+	background-color: #15B3E8;
+	-webkit-transition:all 0.4s ease-in-out;
+  -moz-transition:all 0.4s ease-in-out;
+  -o-transition:all 0.4s ease-in-out;
+  transition:all 0.4s ease-in-out;
+}
 
 
 /*Below is code for hard code chatroom*/

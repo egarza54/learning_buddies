@@ -2,20 +2,37 @@
 <div class="one_to_one_work">
 	<h1>Hello <%= @student1.name %> and <%= @student2.name %></h1>
 	<hr>
-	<h2>You'll be working on the <span style="color:blue"><%= @instructions.name %></span> assignment</h2>
+	<h2>You'll be working on the <span style="color:#1582E8"><%= @instructions.name %></span> assignment</h2>
 	<div class="work">
 			<div>
-				<iframe src="//player.vimeo.com/video/40000072" width="700" height="393.4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				<iframe src="//player.vimeo.com/video/40000072" width="850" height="477.7" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 			</div>
 			<p><%= @instructions.instructions %>
 	</div>
 
 	<div class="student_work">
-		<%= form_for @assignment do |f|%>
-      <p><%= f.text_area :submission %></p>
-      <button class="btn btn-primary btn-block" id="save">SAVE WORK</button>
-    <% end %>
+
+			<%= form_for @assignment do |f|%>
+	      <p><%= f.text_area :submission %></p>
+	      <button class="btn btn-primary btn-block" id="save">SAVE WORK</button>
+	    <% end %>
+
+	   <div class="need_help">
+			<% if @assignment.questions %>
+				<%= form_for @assignment do |f|%>
+					<p><%= f.hidden_field :questions, :value => false%></p>
+		      <button class="btn btn-primary btn-block" id="answered">ANSWERED</button>
+				<% end %>
+			<% else %>
+				<%= form_for @assignment do |f|%>
+					<p><%= f.hidden_field :questions, :value => true%></p>
+		      <button class="btn btn-primary btn-block" id="questions">RAISE HAND</button>
+				<% end %>
+			<% end %>
+		</div>
+
 	</div>
+
 
 	<div class="messages">
 		<div id="chat">
@@ -24,10 +41,10 @@
 			<% end %>
 		</div>
 		<br>
-		<%= form_for(:message, :remote => true, :url => {:controller => 'assignment', :action => 'create'}, :html=> {:id => 'form_message'}) do |f| %>
+		<%= form_for(:message, :url => {:controller => 'message', :action => 'create'}, :html=> {:id => 'form_message'}) do |f| %>
 			<%= f.text_field :content %>
 			<%= f.hidden_field :assignment_id, :value => @assignment.id%>
-			<%= f.submit "Send" %>
+			<button class="btn btn-primary btn-block" id="send">SEND</button>
 		<% end %>
 	</div>
 
