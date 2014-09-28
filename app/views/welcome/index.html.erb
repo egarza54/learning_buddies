@@ -1,13 +1,21 @@
 <div class="home">
   <div class="head">
     <%= image_tag("pairs-horiz.png") %>
+    <p>Student Collaboration Made Easy.</p>
   </div>
   <div class="welcome-container">
-    
-    <p>Student Collaboration Made Easy.</p>
-    <div class="row">
-    <%= link_to(image_tag("rogerpark.jpg"), "/rogers-park") %>
-    <%= link_to(image_tag("bucktown.jpg"), "/bucktown") %>
+    <div class="student-text"><p>Student Login</p>
     </div>
+      <div class="student">
+        
+        <%= link_to(image_tag("pear-white2.png"), "/new") %>
+      </div>
+
+      <div class="teacher-text"><p>Teacher Login</p>
+      </div>
+      <div class="teacher">
+        <%= link_to(image_tag("pear-white2.png"), "/teacher/1") %>
+      </div>
+  
   </div>
 </div>
