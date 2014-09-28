@@ -1,15 +1,15 @@
 <div class="teacher-container">
-  <h2><%= current_teacher.prefix %><%= current_teacher.name %>'s Assignment Dashboard</h2>
+  <h2><%= current_teacher.prefix %> <%= current_teacher.name %>'s Assignment Dashboard</h2>
 
   <div class="dashboard">
     <h3><%= @type.name %></h3>
 
       <% @assignments.each do |assignment| %>
-    <div class="blocks">
+    <a href="/assignment/<%= assignment.id %>"><div class="blocks" id="block-<%= assignment.id %>">
         <% assignment.students.each do |pair| %>
-        <li><%= pair.name %></li>
+        <li><%= image_tag('pear-white.png') %><%= pair.name %></li>
         <% end %>
-    </div>
+    </div></a>
       <% end %>
   </div>
   </div>
