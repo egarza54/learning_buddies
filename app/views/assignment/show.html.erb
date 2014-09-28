@@ -1,26 +1,34 @@
+
 <div class="one_to_one_work">
 	<h1>Hello <%= @student1.name %> and <%= @student2.name %></h1>
 	<hr>
 	<h2>You'll be working on the <span style="color:blue"><%= @instructions.name %></span> assignment</h2>
 	<div class="work">
-		<% if @instructions.assignment_url %>
 			<div>
 				<iframe src="//player.vimeo.com/video/40000072" width="700" height="393.4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 			</div>
-		<% end %>
-		<p> <%= @instructions.instructions%> </p>
-
+			<p><%= @instructions.instructions %>
 	</div>
 
 	<div class="student_work">
 		<%= form_for @assignment do |f|%>
-          <p><%= f.text_area :submission %></p>
-          <button class="btn btn-primary btn-block" id="save">SAVE WORK</button>
+      <p><%= f.text_area :submission %></p>
+      <button class="btn btn-primary btn-block" id="save">SAVE WORK</button>
     <% end %>
 	</div>
 
-	<div class="chat">
-
+	<div class="messages">
+		<div id="chat">
+			<% if @messages %>
+				<%= render 'message' %>
+			<% end %>
+		</div>
+		<br>
+		<%= form_for(:message, :remote => true, :url => {:controller => 'assignment', :action => 'create'}, :html=> {:id => 'form_message'}) do |f| %>
+			<%= f.text_field :content %>
+			<%= f.hidden_field :assignment_id, :value => @assignment.id%>
+			<%= f.submit "Send" %>
+		<% end %>
 	</div>
 
 </div>

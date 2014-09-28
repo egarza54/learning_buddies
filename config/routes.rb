@@ -4,18 +4,17 @@ Rails.application.routes.draw do
 
   root 'welcome#index'
 
-  get 'assignment/:id' => 'assignment#show'
 
+  get 'assignment/:id' => 'assignment#show'
   post "login" => "sessions#create", :as => "login"
   get "logout" => "sessions#destroy", :as => "logout"
 
   resources :teacher
-
+  resources :message
   resources :assignment
   resources :assignment_student
 
 
-  get "landing" => "landings#index", :as => "landing"
 
 end
   # The priority is based upon order of creation: first created -> highest priority.

@@ -16,16 +16,26 @@
 //= require turbolinks
 //= require_tree .
 
-// $(function(){ 
+$(function(){ 
+	$(document).foundation(); 
 
-// 	$(document).foundation(); 
+	// $("#form_message").submit(function(event){
+	// 	debugger;
+	// 	event.preventDefault
+	// 	var data = $(this).serialize();
+	// 	var url = $(this).attr('action');
 
-// });
+	// 	var ajaxRequest = $.ajax({
+	// 		url: url,
+	// 		type: "POST",
+	// 		data: data
+	// 	});
 
-$(document).ready(function() {
-
-
-  });
-
+	// 	ajaxRequest.done(function(response){
+	// 		debugger;
+	// 		// $('#chat').append()
+	// 	});
+	// });
 
 });
+
