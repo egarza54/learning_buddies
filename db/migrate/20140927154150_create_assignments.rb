@@ -3,6 +3,7 @@ class CreateAssignments < ActiveRecord::Migration
     create_table :assignments do |t|
     	t.integer :assignment_type_id
       t.text :submission
+      t.boolean :questions, :default => false
       t.integer :teacher_id
 
       t.timestamps

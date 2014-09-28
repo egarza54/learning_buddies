@@ -4,12 +4,20 @@
   <div class="dashboard">
     <h3><%= @type.name %></h3>
 
-      <% @assignments.each do |assignment| %>
-    <a href="/assignment/<%= assignment.id %>"><div class="blocks" id="block-<%= assignment.id %>">
-        <% assignment.students.each do |pair| %>
-        <li><%= image_tag('pear-white.png') %><%= pair.name %></li>
-        <% end %>
-    </div></a>
+    <% @assignments.each do |assignment| %>
+      <% if assignment.questions %>
+        <a href="/assignment/<%= assignment.id %>"><div class="red_block" id="block-<%= assignment.id %>">
+          <% assignment.students.each do |pair| %>
+            <li><%= image_tag('pear-white.png') %><%= pair.name %></li>
+          <% end %>
+        </div></a>
+      <% else %>
+        <a href="/assignment/<%= assignment.id %>"><div class="blue_block" id="block-<%= assignment.id %>">
+          <% assignment.students.each do |pair| %>
+            <li><%= image_tag('pear-white.png') %><%= pair.name %></li>
+          <% end %>
+        </div></a>
       <% end %>
+    <% end %>
   </div>
   </div>

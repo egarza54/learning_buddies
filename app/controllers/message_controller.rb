@@ -4,6 +4,9 @@ class MessageController < ApplicationController
 	end
 
 	def create
+		@message = Message.create(message_params)		
+		@assignment = Assignment.find(@message.assignment_id)
+		redirect_to assignment_path(@assignment)
 	end
 
 	private
