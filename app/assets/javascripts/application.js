@@ -17,7 +17,24 @@
 //= require_tree .
 
 $(function(){ 
-
 	$(document).foundation(); 
+
+	// $("#form_message").submit(function(event){
+	// 	debugger;
+	// 	event.preventDefault
+	// 	var data = $(this).serialize();
+	// 	var url = $(this).attr('action');
+
+	// 	var ajaxRequest = $.ajax({
+	// 		url: url,
+	// 		type: "POST",
+	// 		data: data
+	// 	});
+
+	// 	ajaxRequest.done(function(response){
+	// 		debugger;
+	// 		// $('#chat').append()
+	// 	});
+	// });
 
 });
