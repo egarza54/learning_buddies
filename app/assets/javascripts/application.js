@@ -19,13 +19,12 @@
 // $(function(){ 
 
 // 	$(document).foundation(); 
+// $('#block 1').foundation('reveal', 'open', '/assignment/1');
 
 // });
 
-$(document).ready(function() {
+// $(document).ready(function() {
 
 
-  });
 
-
-});
+// });
