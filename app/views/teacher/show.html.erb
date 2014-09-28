@@ -5,11 +5,11 @@
     <h3><%= @type.name %></h3>
 
       <% @assignments.each do |assignment| %>
-    <div class="blocks">
+    <a href="/assignment/<%= assignment.id %>"><div class="blocks" id="block-<%= assignment.id %>">
         <% assignment.students.each do |pair| %>
         <li><%= image_tag('pear-white.png') %><%= pair.name %></li>
         <% end %>
-    </div>
+    </div></a>
       <% end %>
   </div>
   </div>
