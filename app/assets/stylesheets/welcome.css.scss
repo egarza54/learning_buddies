@@ -4,7 +4,7 @@
 
 .home p {
   font-family: 'Noto Sans', sans-serif;
-  color: #939393;
+  color: #333;
   font-size: 26px;
   /*text-align: center;*/
   position: relative;
@@ -20,7 +20,7 @@
   display: inline-block;
   border: solid 3px;
   overflow: hidden;
-  top: 69%;
+  top: 60%;
   left: 30%;
 }
 
@@ -29,7 +29,7 @@
   font-family: 'Noto Sans', sans-serif;
   color: #FFFFFF;
   display: inline;
-  left: 26%;
+  left: 28%;
   top: 50px;
 }
 
@@ -50,7 +50,7 @@
 .teacher {
   position: absolute;
   left:50%;
-  top: 69%;
+  top: 60%;
   width: 220px;
   height: 220px;
   float: left;
