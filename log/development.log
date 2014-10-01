@@ -1261,3 +1261,4 @@ Started GET "/assets/pear-white.png" for 127.0.0.1 at 2014-09-28 13:07:01 -0500
   [1m[36m (0.1ms)[0m  [1mBEGIN[0m
   [1m[35mSQL (0.2ms)[0m  INSERT INTO "assignment_students" ("assignment_id", "created_at", "student_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["assignment_id", 10], ["created_at", "2014-10-01 03:47:37.367206"], ["student_id", 20], ["updated_at", "2014-10-01 03:47:37.367206"]]
   [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[36mTeacher Load (19.0ms)[0m  [1mSELECT "teachers".* FROM "teachers"[0m
