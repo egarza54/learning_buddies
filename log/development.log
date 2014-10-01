@@ -1102,3 +1102,162 @@ Completed 200 OK in 646ms (Views: 604.8ms | ActiveRecord: 13.2ms)
 
 
 Started GET "/assets/pear-white.png" for 127.0.0.1 at 2014-09-28 13:07:01 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (17.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "students" ("created_at", "grade", "name", "password_digest", "updated_at", "username") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2014-10-01 03:47:35.216866"], ["grade", "3rd"], ["name", "Rebecca Mitchell"], ["password_digest", "$2a$10$OXlxZb3gfQRmTFRY./iImeLDs7dTQkkdYF4lwyNQqFYyoQ.mVtmLS"], ["updated_at", "2014-10-01 03:47:35.216866"], ["username", "lupe.pollich"]]
+  [1m[35m (11.5ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "students" ("created_at", "grade", "name", "password_digest", "updated_at", "username") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2014-10-01 03:47:35.328283"], ["grade", "3rd"], ["name", "Myriam Abbott"], ["password_digest", "$2a$10$uwp4nbhzKt1.7O79rbO5tutSqSsmk3rctwbWBIIthI9UqnANolAIK"], ["updated_at", "2014-10-01 03:47:35.328283"], ["username", "malachi"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "students" ("created_at", "grade", "name", "password_digest", "updated_at", "username") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2014-10-01 03:47:35.420395"], ["grade", "3rd"], ["name", "Violet Schiller IV"], ["password_digest", "$2a$10$Hf.J9y1W7Ax5ZB3t5K7Fu.ou94TYkrCrRBS2M1H.NdDBUu1be8L8e"], ["updated_at", "2014-10-01 03:47:35.420395"], ["username", "mitchel.dach"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "students" ("created_at", "grade", "name", "password_digest", "updated_at", "username") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2014-10-01 03:47:35.512181"], ["grade", "3rd"], ["name", "Shany West Sr."], ["password_digest", "$2a$10$Gy4980Y3VKQBENEEgUC2NeXmh..AWb.wDGmJOur5tehPtP1pMXdmi"], ["updated_at", "2014-10-01 03:47:35.512181"], ["username", "nikita"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "students" ("created_at", "grade", "name", "password_digest", "updated_at", "username") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2014-10-01 03:47:35.604271"], ["grade", "3rd"], ["name", "Sister Koelpin"], ["password_digest", "$2a$10$rnt30sbULp4zNPrukEAC2uCvnBLVSaEn3EbgDoaoABmcrJOf/fnYe"], ["updated_at", "2014-10-01 03:47:35.604271"], ["username", "adalberto"]]
+  [1m[35m (0.7ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "students" ("created_at", "grade", "name", "password_digest", "updated_at", "username") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2014-10-01 03:47:35.696257"], ["grade", "3rd"], ["name", "Adolfo Wunsch"], ["password_digest", "$2a$10$FTQc8F7pCDNobEPZoa3.iuiCpxircJazu79EWY/lO5RQWHLBMJqXG"], ["updated_at", "2014-10-01 03:47:35.696257"], ["username", "marcos_weimann"]]
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "students" ("created_at", "grade", "name", "password_digest", "updated_at", "username") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2014-10-01 03:47:35.788440"], ["grade", "3rd"], ["name", "Mr. Adrien Luettgen"], ["password_digest", "$2a$10$MPKQzLHXUeEqEk1XeJS5zuoQGrctpci5cSyqWQ/nMPV4RNHdJuK3a"], ["updated_at", "2014-10-01 03:47:35.788440"], ["username", "delphine"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "students" ("created_at", "grade", "name", "password_digest", "updated_at", "username") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2014-10-01 03:47:35.880526"], ["grade", "3rd"], ["name", "Mrs. Kathlyn D'Amore"], ["password_digest", "$2a$10$O5JEU92arxWdRk4UV64Q6e0Sfyu33TIYIKaNXqG0q6gclCdXonBLG"], ["updated_at", "2014-10-01 03:47:35.880526"], ["username", "aleandra"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "students" ("created_at", "grade", "name", "password_digest", "updated_at", "username") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2014-10-01 03:47:35.972157"], ["grade", "3rd"], ["name", "Mercedes Torphy"], ["password_digest", "$2a$10$SCyKUeFkJMWvo2L9IdVlsujC4zedpffOwfv.9Dbf3tpM/BYIvzYq2"], ["updated_at", "2014-10-01 03:47:35.972157"], ["username", "oswaldo_marvin"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "students" ("created_at", "grade", "name", "password_digest", "updated_at", "username") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2014-10-01 03:47:36.063751"], ["grade", "3rd"], ["name", "Christiana Klocko"], ["password_digest", "$2a$10$F9boI.O.eolI6Q21JhVP0Ocwj200ewQAw1efkyhzZvOwwff7ysQ.m"], ["updated_at", "2014-10-01 03:47:36.063751"], ["username", "tamara_ondricka"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (20.9ms)[0m  [1mINSERT INTO "students" ("created_at", "grade", "name", "password_digest", "updated_at", "username") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2014-10-01 03:47:36.155478"], ["grade", "3rd"], ["name", "Isac Schneider"], ["password_digest", "$2a$10$gVWXYclL8WdeNunpGqVe4O2t/2N4hwet1D59SNJ1OXvEyOTPFejD2"], ["updated_at", "2014-10-01 03:47:36.155478"], ["username", "pearlie"]]
+  [1m[35m (0.9ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "students" ("created_at", "grade", "name", "password_digest", "updated_at", "username") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2014-10-01 03:47:36.271593"], ["grade", "3rd"], ["name", "Miss Clarissa Kuphal"], ["password_digest", "$2a$10$LXhJ3NeCoVFetkHqi6ZtOOA.jEkqI.nX1ZocSXNIRNOrjPruIvJZG"], ["updated_at", "2014-10-01 03:47:36.271593"], ["username", "jakob"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "students" ("created_at", "grade", "name", "password_digest", "updated_at", "username") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2014-10-01 03:47:36.363380"], ["grade", "3rd"], ["name", "Amelie Wilkinson"], ["password_digest", "$2a$10$L8uydHV0E8TjsseznmbztuPAW0hwBznB6d1cruLqLr7rGKVo6LwE."], ["updated_at", "2014-10-01 03:47:36.363380"], ["username", "rudolph"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "students" ("created_at", "grade", "name", "password_digest", "updated_at", "username") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2014-10-01 03:47:36.455091"], ["grade", "3rd"], ["name", "Maida Rowe"], ["password_digest", "$2a$10$.wUKd5J.A0lXmQkVSNd.c.hrxUDsz0gC84ctFOg3ElxmEVekTON9y"], ["updated_at", "2014-10-01 03:47:36.455091"], ["username", "brady"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "students" ("created_at", "grade", "name", "password_digest", "updated_at", "username") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2014-10-01 03:47:36.546697"], ["grade", "3rd"], ["name", "Mrs. Amari Krajcik"], ["password_digest", "$2a$10$QNfmPscsF7jLUTwxLF0fMuuC6fF43b9A2hkWdDm8/jt2WDxU0HBoe"], ["updated_at", "2014-10-01 03:47:36.546697"], ["username", "mozell"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "students" ("created_at", "grade", "name", "password_digest", "updated_at", "username") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2014-10-01 03:47:36.638234"], ["grade", "3rd"], ["name", "Wyatt Schmeler"], ["password_digest", "$2a$10$xaJp/hb2mwV3jXvTxsiGYOhDle/q5KBaGaqO.rlIX./t81DLXpX4a"], ["updated_at", "2014-10-01 03:47:36.638234"], ["username", "adrianna_mitchell"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "students" ("created_at", "grade", "name", "password_digest", "updated_at", "username") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2014-10-01 03:47:36.730678"], ["grade", "3rd"], ["name", "Carolina Lubowitz"], ["password_digest", "$2a$10$ETy54zr9AZDcRaX.J6OVEOjGwph6Y068g/MIEhxVDiVc0QSgTQqny"], ["updated_at", "2014-10-01 03:47:36.730678"], ["username", "georgiana"]]
+  [1m[35m (0.7ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "students" ("created_at", "grade", "name", "password_digest", "updated_at", "username") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2014-10-01 03:47:36.822581"], ["grade", "3rd"], ["name", "Shemar Anderson"], ["password_digest", "$2a$10$YD6laMId1/ol5kJtlTLeQOXQ5b/DP3HOStt5cIUoqL21uYTjdh3S6"], ["updated_at", "2014-10-01 03:47:36.822581"], ["username", "arnulfo"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "students" ("created_at", "grade", "name", "password_digest", "updated_at", "username") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["created_at", "2014-10-01 03:47:36.914215"], ["grade", "3rd"], ["name", "Mr. Dalton Thiel"], ["password_digest", "$2a$10$MBjw/Zl70ibS4pijpjtRCOy0bMo4GMiUzkVE9pU41thiYidHMJRbO"], ["updated_at", "2014-10-01 03:47:36.914215"], ["username", "kayden.blanda"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "students" ("created_at", "grade", "name", "password_digest", "updated_at", "username") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"  [["created_at", "2014-10-01 03:47:37.005750"], ["grade", "3rd"], ["name", "Miss Adriana Waelchi"], ["password_digest", "$2a$10$5Tun.fjb.vuVQTwqEpX7xeekOXkLKaLawiS3tZF2RpKy.JO18W6eK"], ["updated_at", "2014-10-01 03:47:37.005750"], ["username", "aletha_block"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mTeacher Exists (1.2ms)[0m  [1mSELECT  1 AS one FROM "teachers"  WHERE "teachers"."email" = 'hornickel@school.edu' LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  ROLLBACK
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "assignment_types" ("created_at", "instructions", "name", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", "2014-10-01 03:47:37.174156"], ["instructions", "Watch the video above and answer the following questions. What did you think about it? How would you build your own arcade like Caine's? Describe your plan to build an arcade. What games would you have? What materials would you use for each game? How would you build it? Go crazy!!!"], ["name", "Caine's Arcade Write-Up"], ["updated_at", "2014-10-01 03:47:37.174156"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "assignments" ("assignment_type_id", "created_at", "teacher_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["assignment_type_id", 1], ["created_at", "2014-10-01 03:47:37.286010"], ["teacher_id", 1], ["updated_at", "2014-10-01 03:47:37.286010"]]
+  [1m[35m (0.7ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "assignments" ("assignment_type_id", "created_at", "questions", "teacher_id", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["assignment_type_id", 1], ["created_at", "2014-10-01 03:47:37.290240"], ["questions", "t"], ["teacher_id", 1], ["updated_at", "2014-10-01 03:47:37.290240"]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "assignments" ("assignment_type_id", "created_at", "teacher_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["assignment_type_id", 1], ["created_at", "2014-10-01 03:47:37.293536"], ["teacher_id", 1], ["updated_at", "2014-10-01 03:47:37.293536"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "assignments" ("assignment_type_id", "created_at", "teacher_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["assignment_type_id", 1], ["created_at", "2014-10-01 03:47:37.296107"], ["teacher_id", 1], ["updated_at", "2014-10-01 03:47:37.296107"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "assignments" ("assignment_type_id", "created_at", "questions", "teacher_id", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["assignment_type_id", 1], ["created_at", "2014-10-01 03:47:37.298559"], ["questions", "t"], ["teacher_id", 1], ["updated_at", "2014-10-01 03:47:37.298559"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "assignments" ("assignment_type_id", "created_at", "teacher_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["assignment_type_id", 1], ["created_at", "2014-10-01 03:47:37.301048"], ["teacher_id", 1], ["updated_at", "2014-10-01 03:47:37.301048"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "assignments" ("assignment_type_id", "created_at", "teacher_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["assignment_type_id", 1], ["created_at", "2014-10-01 03:47:37.303434"], ["teacher_id", 1], ["updated_at", "2014-10-01 03:47:37.303434"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "assignments" ("assignment_type_id", "created_at", "questions", "teacher_id", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["assignment_type_id", 1], ["created_at", "2014-10-01 03:47:37.305843"], ["questions", "t"], ["teacher_id", 1], ["updated_at", "2014-10-01 03:47:37.305843"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "assignments" ("assignment_type_id", "created_at", "questions", "teacher_id", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["assignment_type_id", 1], ["created_at", "2014-10-01 03:47:37.308297"], ["questions", "t"], ["teacher_id", 1], ["updated_at", "2014-10-01 03:47:37.308297"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "assignments" ("assignment_type_id", "created_at", "teacher_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["assignment_type_id", 1], ["created_at", "2014-10-01 03:47:37.310710"], ["teacher_id", 1], ["updated_at", "2014-10-01 03:47:37.310710"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "assignment_students" ("assignment_id", "created_at", "student_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["assignment_id", 1], ["created_at", "2014-10-01 03:47:37.325048"], ["student_id", 1], ["updated_at", "2014-10-01 03:47:37.325048"]]
+  [1m[35m (0.7ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "assignment_students" ("assignment_id", "created_at", "student_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["assignment_id", 1], ["created_at", "2014-10-01 03:47:37.328619"], ["student_id", 11], ["updated_at", "2014-10-01 03:47:37.328619"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "assignment_students" ("assignment_id", "created_at", "student_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["assignment_id", 2], ["created_at", "2014-10-01 03:47:37.331033"], ["student_id", 2], ["updated_at", "2014-10-01 03:47:37.331033"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "assignment_students" ("assignment_id", "created_at", "student_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["assignment_id", 2], ["created_at", "2014-10-01 03:47:37.333303"], ["student_id", 12], ["updated_at", "2014-10-01 03:47:37.333303"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "assignment_students" ("assignment_id", "created_at", "student_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["assignment_id", 3], ["created_at", "2014-10-01 03:47:37.335439"], ["student_id", 3], ["updated_at", "2014-10-01 03:47:37.335439"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "assignment_students" ("assignment_id", "created_at", "student_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["assignment_id", 3], ["created_at", "2014-10-01 03:47:37.337540"], ["student_id", 13], ["updated_at", "2014-10-01 03:47:37.337540"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "assignment_students" ("assignment_id", "created_at", "student_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["assignment_id", 4], ["created_at", "2014-10-01 03:47:37.339677"], ["student_id", 4], ["updated_at", "2014-10-01 03:47:37.339677"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "assignment_students" ("assignment_id", "created_at", "student_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["assignment_id", 4], ["created_at", "2014-10-01 03:47:37.341991"], ["student_id", 14], ["updated_at", "2014-10-01 03:47:37.341991"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "assignment_students" ("assignment_id", "created_at", "student_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["assignment_id", 5], ["created_at", "2014-10-01 03:47:37.344187"], ["student_id", 5], ["updated_at", "2014-10-01 03:47:37.344187"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "assignment_students" ("assignment_id", "created_at", "student_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["assignment_id", 5], ["created_at", "2014-10-01 03:47:37.346263"], ["student_id", 15], ["updated_at", "2014-10-01 03:47:37.346263"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "assignment_students" ("assignment_id", "created_at", "student_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["assignment_id", 6], ["created_at", "2014-10-01 03:47:37.348319"], ["student_id", 6], ["updated_at", "2014-10-01 03:47:37.348319"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "assignment_students" ("assignment_id", "created_at", "student_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["assignment_id", 6], ["created_at", "2014-10-01 03:47:37.350381"], ["student_id", 16], ["updated_at", "2014-10-01 03:47:37.350381"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "assignment_students" ("assignment_id", "created_at", "student_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["assignment_id", 7], ["created_at", "2014-10-01 03:47:37.352448"], ["student_id", 7], ["updated_at", "2014-10-01 03:47:37.352448"]]
+  [1m[35m (0.6ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "assignment_students" ("assignment_id", "created_at", "student_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["assignment_id", 7], ["created_at", "2014-10-01 03:47:37.354631"], ["student_id", 17], ["updated_at", "2014-10-01 03:47:37.354631"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "assignment_students" ("assignment_id", "created_at", "student_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["assignment_id", 8], ["created_at", "2014-10-01 03:47:37.356799"], ["student_id", 8], ["updated_at", "2014-10-01 03:47:37.356799"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "assignment_students" ("assignment_id", "created_at", "student_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["assignment_id", 8], ["created_at", "2014-10-01 03:47:37.358887"], ["student_id", 18], ["updated_at", "2014-10-01 03:47:37.358887"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "assignment_students" ("assignment_id", "created_at", "student_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["assignment_id", 9], ["created_at", "2014-10-01 03:47:37.360944"], ["student_id", 9], ["updated_at", "2014-10-01 03:47:37.360944"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "assignment_students" ("assignment_id", "created_at", "student_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["assignment_id", 9], ["created_at", "2014-10-01 03:47:37.363048"], ["student_id", 19], ["updated_at", "2014-10-01 03:47:37.363048"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "assignment_students" ("assignment_id", "created_at", "student_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["assignment_id", 10], ["created_at", "2014-10-01 03:47:37.365150"], ["student_id", 10], ["updated_at", "2014-10-01 03:47:37.365150"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "assignment_students" ("assignment_id", "created_at", "student_id", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["assignment_id", 10], ["created_at", "2014-10-01 03:47:37.367206"], ["student_id", 20], ["updated_at", "2014-10-01 03:47:37.367206"]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
