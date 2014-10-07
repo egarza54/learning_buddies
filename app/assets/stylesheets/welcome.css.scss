@@ -20,7 +20,7 @@
   display: inline-block;
   border: solid 3px;
   overflow: hidden;
-  top: 60%;
+  top: 433px;
   left: 30%;
 }
 
@@ -29,8 +29,8 @@
   font-family: 'Noto Sans', sans-serif;
   color: #FFFFFF;
   display: inline;
-  left: 28%;
-  top: 50px;
+  left: 30%;
+  top: 10px;
 }
 
 .student:hover {
@@ -50,7 +50,7 @@
 .teacher {
   position: absolute;
   left:50%;
-  top: 60%;
+  top: 433px;
   width: 220px;
   height: 220px;
   float: left;
@@ -66,6 +66,7 @@
   color: #FFFFFF;
   display: inline-block;
   left: 50%;
+  top: -42px;
 }
 
 .teacher:hover {
